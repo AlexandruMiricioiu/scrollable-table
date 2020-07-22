@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+.table-container {
+  height: 40rem;
+  width: 70%;
+  margin: 4rem auto;
+  overflow: scroll;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  user-select: none;
+}
+table td {
+  padding: 0.8rem 0.3rem;
+  min-width: 6rem;
+  border: 1px solid #ccc;
+}
+table td div {
+  min-height: 1rem;
+}
